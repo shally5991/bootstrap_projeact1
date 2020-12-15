@@ -1,0 +1,21 @@
+
+.header-app {
+    position: fixed;
+}
+body {margin:0;}
+
+.header {
+  overflow: hidden;
+  background-color: rgba(231, 218, 218, 0.719);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.main {
+    padding: 16px;
+    margin-top: 180px;
+    margin-left: 50;
+    height: 1500px;/* Used in this example to enable scrolling*/
+  }
