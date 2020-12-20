@@ -1,0 +1,45 @@
+
+body {
+    background-color: red;
+}
+
+.row{
+    min-height: 500px;
+}
+.wf{
+    outline: 1px solid black;
+    /* position: relative; */
+    }
+.p0{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    text-justify: center;
+    padding: 25px;
+    font-size: 30px;
+
+}
+.parent{
+    /* padding:20%; */
+    position:relative;
+    padding: 20px;
+}
+.parent p{
+    position:relative;
+    z-index: 10;
+}
+.child{
+    background-color:rgb(161, 27, 27);
+    /* width: 60px;
+    height: 60px; */
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 80%;
+    z-index: 0;
+    
+    
+}

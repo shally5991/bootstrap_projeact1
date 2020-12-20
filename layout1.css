@@ -1,0 +1,146 @@
+body{
+    margin:0;
+    padding:0;
+}
+.header{
+    /* display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+     */
+}
+.header-top{
+    margin:1px;
+    border:2px solid black;
+    height: px;
+    background-color:rgb(139, 194, 211);
+    
+
+}
+.header-middle{
+     margin:1px;
+    border:2px solid black;
+    min-height: 30px;
+    background-color:rgb(139, 194, 211);
+
+}
+.header-end{
+    margin:1px;
+    border:2px solid black;
+    min-height: 30px;
+    background-color:rgb(139, 194, 211);
+
+}
+.main{
+    height:
+}
+.row1{
+    /* width: auto; */
+    margin:2px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap:wrap; */
+
+}
+.col{
+    margin:1px;
+    border:2px solid black;
+    background-color:rgb(139, 194, 211);
+
+}
+.col11{
+    width: 30%;
+    min-height: 300px;
+
+}
+.col21{
+    width: 40%;
+    min-height: 200px;
+
+}
+.col31{
+    width:30%;
+   min-height: 300px;
+}
+@media only screen and (max-width:800px){
+    .row1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .col{
+        width: 100%;
+       min-height: 50px;
+    }
+}
+.row2{
+    margin:1px;
+    border:2px solid black;
+    background-color:rgb(139, 194, 211);
+
+}
+.row3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 70px;
+    padding-right: 70px;
+    flex-shrink: 0;
+}
+.col3{
+    border:2px solid black;
+    margin: 2px;
+    background-color: cadetblue;
+    height: 150px;
+    width: 150px;
+}
+.col13{
+
+}
+.col23{
+
+}
+.col33{
+
+}
+.col43{
+
+}
+
+.footer{
+    margin: 2px;
+    display: flex;
+ 
+    justify-content: center;
+    align-items:center;
+}
+.row4{
+    margin: 2px;
+    border:2px solid black;
+    min-height: 100px;
+    width: 33.33333%;
+    background-color: cadetblue;
+}
+@media only screen and (max-width:800px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .row4{
+        width: 100%;
+       
+    }
+
+}
+
+.col1{
+
+}
+.col2{
+
+}
+.col3{
+
+}

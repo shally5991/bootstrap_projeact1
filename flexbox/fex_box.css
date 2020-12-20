@@ -1,0 +1,37 @@
+body {
+    background-color:rgb(116, 115, 112) ;
+}
+
+.axis {
+    position: absolute;
+    
+
+}
+.main-axis{
+    height: 2px;
+    width: 100%;
+    background-color: red;
+    top : 50%
+   
+}
+.cross-axis {
+    height: 100%;
+    width: 2px;
+    background-color: rgb(50, 30, 126);
+    left : 50%
+   
+}
+
+.container{
+    position: relative;
+    background-color: yellow;
+    padding: 1px;
+}
+
+.top{
+    margin-top:200px;
+    font-size: large;
+    color:blanchedalmond;
+    display: flex;
+    justify-content: center;
+}

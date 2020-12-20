@@ -1,0 +1,56 @@
+/* display :flex property by  default layout element  horizontally ,
+    This property makes the element layout flexibily along the axis so that it can shrink and expand , maintaining the 
+    uniformity.
+    property :justify-content;
+    we can get adjust the position of element across the axis with this. 
+     */
+/* justify-content : we use this property to adjust the element in the direction where the element are layed out
+for eg in :horizontal layout justify-content works :horizontally b
+in display:flex ;display-position:column : element are align :vertically so  this property works in :vertical;
+
+whereas when display layout is along the row : to make adjustment in :vertical we use property 
+align */
+
+.container{
+    height: 500px;
+    display: flex;
+    /* flex-direction: column; */
+   
+    
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+  
+    /* align-items : stretch; stretches to full length  */
+    /* align-items: flex-start;if we want to keep the size of our 
+    item we use flex-start. */
+    /* align-items:flex-end; keep the size of items but align from 
+    the bottom.     */
+    align-items: center;
+    flex-wrap: wrap;
+     /* if we use this  wrap property content will spread around the line 
+    instead of shrinking and if we want to align them we use align-center 
+     */
+    align-content: space-around;
+    
+}
+
+.box{
+    width: 200px;
+    border:3px solid black;
+    background: thistle;
+    margin:10px;
+
+}
+.box1{
+    min-height: 100px;
+}
+.box2{
+    min-height: 150px;
+}
+.box3{
+    min-height: 200px;
+}

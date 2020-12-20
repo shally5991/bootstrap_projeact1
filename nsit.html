@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <head>
+    
+    <title>
+        Home | NSUT
+    </title>
+    <meta property="og:title" content="Home | NSIT">
+    <meta name="twitter:title" content="Home | NSIT">
+    
+    
+        <meta charset="utf-8">
+        <meta name="google-site-verification" content="Pv6SJaWKKLC_AAEjDexExrXeyhploLN7UTB_ljgTNnI">
+                 <title>NSUT</title>
+        <meta name="description" content="Netaji Subhas Institute of Technology is a leading institution of higher technical education in India, affiliated to University of Delhi">
+        <!-- Open Graph data -->
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="http://www.nsit.ac.in/static/images/NSITWebPhotos/Infrastructure/25.jpg">
+        <meta property="og:description" content="Netaji Subhas Institute of Technology is a leading institution of higher technical education in India, affiliated to University of Delhi">
+        <meta property="og:site_name" content="Netaji Subhas Institute of Technology">
+    
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@publisher_handle">
+        <meta name="twitter:description" content="Netaji Subhas Institute of Technology is a leading institution of higher technical education in India, affiliated to University of Delhi">
+        <!-- Twitter summary card with large image must be at least 280x150px -->
+        <meta name="twitter:image:src" content="http://www.nsit.ac.in/static/images/NSITWebPhotos/Infrastructure/25.jpg">
+        
+                <link rel="stylesheet" href="/static/generated/template_css.css?a961de20">
+        
+        <!-- <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
+        <!-- <link href="/static/css/bxslider.css" rel="stylesheet" type="text/css"> -->
+        <link href="/static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <!-- <link href="/static/css/screen2.css" rel="stylesheet" type="text/css"> -->
+        <!-- <link href="/static/css/header_blue.css" rel="stylesheet" type="text/css"> -->
+        <!-- <link href="/static/css/styles_blue.css" rel="stylesheet" type="text/css"> -->
+        <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/static/images/favicon.ico" type="image/x-icon">
+        <!-- <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Condensed:400,700|Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'> -->
+        
+    <style>
+        .youtube-container { display: block; margin: 0px auto; width: 100%; max-width: 600px; }
+        .youtube-player { display: block; width: 100%; /* assuming that the video has a 16:9 ratio */ padding-bottom: 56.25%; overflow: hidden; position: relative; width: 100%; height: 100%; cursor: hand; cursor: pointer; display: block; }
+        img.youtube-thumb { bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; height: 100% }
+        div.play-button { height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url("http://i.imgur.com/TxzC70f.png") no-repeat; }
+        #youtube-iframe { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
+        .flexslider .slides img {
+        max-height: 285px; /*maximum height for all slides*/
+        width: auto; /*proper aspect ratio of images*/
+        max-width: 100%; /*maximum width for all slides*/
+        margin: 0 auto; /*centering images in the container*/
+        }	
+    </style><!--css part for replacing video as thumbnails,intially-->
+    <!-- <link rel="stylesheet" href="/static/lib/index_new/css.css"> -->
+    <!-- <link rel="stylesheet" href="/static/lib/index_new/font-awesome.css"> -->
+    <!-- <link rel="stylesheet" href="/static/lib/index_new/prettyPhoto.css"> -->
+    <!-- <link rel="stylesheet" href="/static/lib/index_new/styles_blue.css"> -->
+    <!-- <link rel="stylesheet" href="/static/lib/index_new/flexslider.css"> -->
+    
+                <link rel="stylesheet" href="/static/generated/index_css.css?adbf3cde">
+    
+    
+    
+    </head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse header noPadTop noMarginTop noMarginBottom" role="navigation">
+        <div class="container fullWidth">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="row">
+                <div class="collapse navbar-collapse top-menu" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/library/">Central Library</a></li>
+                        <li><a href="/notices/">Notices</a></li>
+                        <li><a href="/tenders/">Tenders<sup style="color:orange;">&nbsp;New</sup></a></li>
+                        <li><a href="/recruitment/">Recruitment<sup style="color:orange;">&nbsp;New</sup></a></li>
+                        <li><a href="/placement/">Placement</a></li>
+                        <li><a href="/rti/">RTI</a></li>
+                         
+                           <li><a href="/Anti_sexual/">Internal Complaint Commitee(ICC)<sup style="color:orange;">&nbsp;New</sup></a></li>
+                        <li><a href="/grievance/">Grievance Commitee<sup style="color:orange;">&nbsp;New</sup></a></li>
+                        <li><a href="/nirf/">NIRF<sup style="color:orange;">&nbsp;New</sup></a></li>
+                    <!--	<li><a href="/static/documents/ASH.pdf">Internal Complaint Commitee(ICC) for Anti sexual harassment</a></li> -->
+                        <li><a href="/location/">Location</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row logoRow centeredParent padTopSmall padBottomSmall">
+                <div class="centeredChild" style:"float:left;clear:left;"="">
+                    <a href="/" style="text-decoration:none !important; color:inherit;">
+                        <div class="navbar-brand"><img id="logo-header" src="http://pngimg.com/uploads/england/england_PNG89.png" alt="NSIT" title="NSIT"></div>
+                    </a>
+                </div>
+                <div id="logo-head">
+                    <strong>
+                        <a href="/" style="text-decoration:none !important; color:inherit;">
+                            <h1 id="logo-tophead">Netaji Subhas University of Technology</h1>
+                            <h4 id="logo-subhead">formerly Netaji Subhas Institute of Technology</h4>
+                        </a>
+                        <a href="http://www.du.ac.in/" target="_blank" style="text-decoration:none !important; color:inherit;">
+                            <h4 id="logo-subberhead">(Govt. of NCT of Delhi)</h4>
+                        </a> 
+                    </strong>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+        <div class="container-fluid menuRow">
+            <div class="row centeredParent">
+                <!--<div class="col-md-2"></div>-->
+                <ul class="nav navbar-nav centeredChild">
+                    <li class="dropdown menu-tab dropdown-large">
+                        <a href="#" class="dropdown-toggle menu-tab-a" data-toggle="dropdown">About</a>
+                        <ul class="dropdown-menu dropdown-menu-large row">
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li class="dropdown-header"><a href="/about/">About NSUT</a></li>
+                                    <li><a href="/about/vision/">Vision</a></li>
+                                    <li><a href="/about/history/">History</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li class="dropdown-header"><a href="/about-campus/">Campus</a></li>
+                                    <!-- <li><a href="/administration/">About Campus</a></li> -->
+                                    <!-- <li><a href="/director/">Gallery</a></li> -->
+                                    <!-- <li class="divider"></li> -->
+                                    <li><a href="/location/">Location</a></li>
+                                    <li><a href="/campus-life/blocks/">Blocks</a></li>
+                                    <li><a href="/campus-life/infrastructure/">Infrastructure Facilities</a></li>
+                                    <!--<li><a href="/under_construction/">FAQs</a></li>-->
+                                </ul>
+                            </li>
+                            <li class="col-sm-5"><p class="quote">One of India's most reputed institutions in the domain of technical education, NSIT has carved a niche for itself - both nationally and internationally - for excellence in education and research. The overall environment in the institution is highly conducive for growth and provides a quality learning atmosphere.</p></li>
+                            <li class="col-sm-3">
+                                <img src="/static/images/index_carousel/navbar_about.jpg" width="100%">
+                            </li>
+                        </ul>
+                    </li>
+    
+                    <li class="dropdown menu-tab dropdown-large">
+                        <a href="#" class="dropdown-toggle menu-tab-a" data-toggle="dropdown">Administration</a>
+                        <ul class="dropdown-menu dropdown-menu-large row">
+                            <li class="col-sm-2">
+                                <ul>
+                                    <!-- <li class="dropdown-header"><a href="/administration/">Emminent Personnel</li></a> -->
+                                    <li><a href="/president/">Chancellor</a></li>
+                                   <!-- <li><a href="/chairman/">Chairman</a></li>-->
+                                    <li><a href="/ViceChancellor/">Vice Chancellor</a></li>
+                                    <li><a href="/list-of-deans/">Deans</a></li>
+                                    <li><a href="/registrar/">Registrar</a></li>
+                                    <li><a href="/CntrlofExam/">Controller of Examinations</a></li>
+                                    <li><a href="/CntrlofFinance/">Controller of Finance</a></li>
+                                    
+                  <!--                  <li><a href="/faculty/jkm/">Proctor</a></li>
+                                    <li><a href="/general-council/">General Council</a></li>
+                                    <li><a href="/board-of-governers/">Board of Governors</a></li> -->
+                                <li><a href="/list-of-court/"> The Court</a></li>
+                            <!--    <li><a>The Court</a></li>   -->
+                                    <li><a href="/board-of-management/">Board of Management</a></li>
+                                    <li><a href="/senate/">The Senate</a></li>
+                                    <li><a href="/financecommittee/">The Finance Committee</a></li>
+                                    <li><a href="/Ombudsman/">Ombudsman</a></li>
+                            <!--		<li><a>Standing Committee on Building & Work</a></li>  -->
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li><a href="/statutorydoc/"><b>Act,Statutes,Ordinances</b></a></li>
+                                    <li><a href="/nsutmom/"><b>Minutes of Meetings</b></a></li>		
+                                    <li><a href="/UAIS/"><b>Incentives for Students (UG,PG and Ph.D),Faculty,Officers, and Staff of the NSUT</b><sup style="color:orange;">&nbsp;New</sup></a></li>								
+                                </ul>
+                            </li>
+                            <li class="col-sm-5"><p class="quote">The Administrative department works tediously to get the gears clicking in NSUT. Find information about the personnel in concern here.</p></li>
+                            <li class="col-sm-3">
+                                <img src="/static/images/index_carousel/navbar_%09.jpg" width="100%">
+                            </li>
+                        </ul>
+                    </li>
+    
+                    <li class="dropdown menu-tab dropdown-large">
+                        <a href="#" class="dropdown-toggle menu-tab-a" data-toggle="dropdown">Academics</a>
+                        <ul class="dropdown-menu dropdown-menu-large row">
+                            <li class="col-sm-3">
+                                <ul>
+                                    <li class="dropdown-header"><a href="/divisions/">Departments</a></li>
+                                    <li><a href="/division/ece/">Electronics and Communication</a></li>
+                                    <li><a href="/division/coe/">Computer Science and Engineering</a></li>
+                                    <li><a href="/division/ice/">Instrumentation and Control</a></li>
+                                    <li><a href="/division/it/">Information Technology</a></li>
+                                    <li><a href="/division/mpae/">Mechanical Engineering</a></li>
+                                    <li><a href="/division/bt/">Biological Sciences and Engineering</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li class="dropdown-header"><a href="/divisions/">Departments</a></li>
+                                    <li><a href="/division/hss/">Humanities and Social Sciences</a></li>
+                                    <li><a href="/division/mth/">Mathematics</a></li>
+                                    <li><a href="/division/phy/">Physics</a></li>
+                                    <li><a href="/division/chem/">Chemistry</a></li>
+                                    <li><a href="/division/mg/">Management Studies</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li class="dropdown-header"><a href="/academics/courses/">Courses</a></li>
+                                    <li><a href="/academics/courses/">Undergraduate</a></li>
+                                    <li><a href="/academics/courses/">Postgraduate</a></li>
+                                    <li><a href="/academics/courses/">Ph.D</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header"><a href="/research/">Research and Development</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-2"><p class="quote"><u>Contact Details:</u><br>
+                            
+                    <b>Academic Section</b><br>
+                    (UG/PG STUDIES) NSUT Sector 3 Dwarka New Delhi-110078<br>
+                    email:aracad@nsit.ac.in Phone(o): 011-25000268</p></li>
+                                
+                            <li class="col-sm-3">
+                                <img src="/static/images/index_carousel/navbar_academics.jpg" width="100%">
+                            </li>
+                        </ul>
+                
+    
+                    </li><li class="dropdown menu-tab dropdown-large">
+                        <a href="#" class="dropdown-toggle menu-tab-a" data-toggle="dropdown">Admissions 2020<sup style="color:orange;">&nbsp;New</sup></a>
+                        <ul class="dropdown-menu dropdown-menu-large row">
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li class="dropdown-header"><a href="#">Information</a></li>
+                                    <!--<li><a href="/UAIS/">University Incentive Schemes<sup style="color:orange;">&nbsp;New</sup></a></li>-->
+                                    <li><a href="https://drive.google.com/file/d/1O85HcCHtEh-4dxSqlzSVAx4MKSGzm8fj/view?usp=sharing" target="_blank">DASA Candidates Reporting Instructions 2020-21<sup style="color:orange;">&nbsp;New</sup></a></li>
+                                    <li><a href="/static/documents/notices/Anti%20Ragging_2017.pdf">Anti Ragging Committee</a></li>
+                                    
+                       
+                                   <!-- <li><a href="/static/documents/notices/registration%20orientation%202016%201st%20sem.pdf">Registration and Orientation Schedule for newly Admitted B.E. 1st Semester Students <!--<sup style="color:orange;">&nbsp;New</sup> --><!--</a></li> 2016 Registration Orientation-->
+    
+    
+                                    <li><a href="https://www.onlinesbi.com/sbicollect/icollecthome.htm?corpID=649953">NSUT FEE Payments Through State Bank Collect<sup style="color:orange;">&nbsp;New</sup></a></li>
+                    
+                                    
+                                <!--    <li><a href="/static/documents/notices/Important_Instructions_and_document_required_B._E_I_Sem_july_2016.pdf">Important Instructions for newly admitted B.E. 1st Semester Students <!--<sup style="color:orange;">&nbsp;New</sup> --><!--</a></li>2016 B.E 1st Sem July 2016 -->
+    
+                                   <!-- <li><a href="https://imsnsit.org/imsnsit/notifications.php">Notices / Circulars at NSIT Institute Management System<sup style="color:orange;">&nbsp;New</sup></a></li>-->
+                                   <!-- <li><a href="/static/documents/notices/Hostel_allotment_information.pdf">  Hostel Allotment Information <sup style="color:orange;">&nbsp;New</sup></a></li>-->
+                                   <!-- <li><a href="/static/documents/notices/DASA%20Admission%20%28UG%29%20%20at%20NSIT%20new.pdf">DASA Reporting Instructions 2016<sup style="color:orange;">&nbsp;New</sup></a></li>-->
+                                    <li><a href="http://jeemain.nic.in/webinfo/Public/Home.aspx">JEE (Main) 2020<sup style="color:orange;">&nbsp;New</sup></a></li>
+                                    <li><a href="https://drive.google.com/open?id=1I9nxBm5CwN3QE62URA8W3IEBV3sIrxy_">Fee Refund Policy 2019<sup style="color:orange;">&nbsp;New</sup></a></li>
+                                    <!--<li><a href="http://www.jacdelhi.nic.in/">Seat Allocation</a></li>-->
+                                </ul>
+                            </li> 
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li class="dropdown-header"><a href="#">Undergraduate</a></li>
+                                    <li><a href="https://jacdelhi.nic.in" target="_blank">B.Tech. Admissions through JAC Delhi<sup style="color:orange;">&nbsp;New</sup></a></li>
+    
+                                    <li><a href="http://www.dasanit.org/" target="_blank">B.Tech. Admissions through DASA<sup style="color:orange;">&nbsp;New</sup></a></li>
+                                    <!--<li><a href="/static/documents/DASA2019.pdf" target="_blank">B.Tech. Admissions through DASA 2019 Notice</a></li>-->							
+                                    <!--<li><a href="https://www.aicte-india.org/bureaus/jk/2019-2020" target="_blank">B.Tech. Admissions through PMSSS<sup style="color:orange;">&nbsp;New</sup></a></li>-->						
+                                    <li><a href="https://www.imsnsit.org/imsnsit/elearn_ftechregistration.php" target="_blank">Bachelor of Fashion Technology Admissions 2020-21<sup style="color:orange;">&nbsp;New</sup></a></li>
+                                    <!-- <li><a href="/static/documents/DASA2019.pdf" target="_blank">B.Tech. Admissions through DASA 2019<sup style="color:orange;">&nbsp;New</sup></a></li> --> 
+                                    <!-- <li><a href="/static/documents/PMSSS201920.pdf" target="_blank">B.Tech. Admissions through PMSSS 2019<sup style="color:orange;">&nbsp;New</sup></a></li> --> 
+                                    <li><a href="https://cmac.admissions.nic.in/webinfo/Public/Home.aspx" target="_blank">BBA Admissions 2020<sup style="color:orange;">&nbsp;New</sup></a></li>
+                                    <!--<li><a href="/academics/curriculum/">Revised B.Tech. Course Curriculum<sup style="color:orange;">&nbsp;New</sup></a></li>-->
+                                <!--	<li><a href="/static/documents/news%20paper%20add.pdf" target="_blank">B.E Admission 2019 Media Notifications <sup style="color:orange;">&nbsp;New</sup></h5></a></li> -->
+                                    <!--<li><a href="#">B.Tech. Admission 2019 Media Notifications</a></li>-->
+                                    <!--<li><a href="/academics/curriculum/">Revised BE Course Curriculum<sup style="color:orange;">&nbsp;New</sup></a></li> -->
+                                 <!--   <li><a href="http://www.jacdelhi.nic.in/">Categories</a></li>
+                                    <li><a href="http://www.jacdelhi.nic.in/">Fee Structure</a></li>
+                                    <li><a href="http://www.jacdelhi.nic.in/">Scholarship</a></li>-->
+                                    <li class="divider"></li>
+                                    <li><a href="/notices/"><font size="4"><b>Admission Notices</b></font><sup style="color:orange;">&nbsp;New</sup></a></li>
+                                    
+                                   <!-- <li><a href="http://www.jacdelhi.nic.in/">Loans</a></li>-->
+                                    <li><a href="/admissions/contact/">Contact</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li class="dropdown-header"><a href="#">Postgraduate</a></li>
+                                    <li><a href="https://www.imsnsit.org/imsnsit/elearn_mbaregistration.php" target="_blank">MBA in Innovation,Entrepreneurship and Venture Development 2020<sup style="color:orange;">&nbsp;New</sup></a></li>
+                                    <li><a href="https://www.imsnsit.org/imsnsit/elearn_mbaregistration.php" target="_blank">M.B.A Admissions 2020<sup style="color:orange;">&nbsp;New</sup></a></li>
+                                    <li><a href="https://www.imsnsit.org/imsnsit/elearn_pgregistration.php" target="_blank">M.Tech Admissions<sup style="color:orange;">&nbsp;New</sup></a></li>
+                                    <!--<li><a href="/notices/">Admission Notices</a></li>-->
+                                   <!--  <li class="divider"></li>
+                                    <li class="dropdown-header"><a href="#">Ph.D</a></li>
+                                    <li><a href="https://www.imsnsit.org/imsnsit/elearn_phdregistration.php" target="_blank">Ph.D Admissions 2019<sup style="color:orange;">&nbsp;New</sup></a></li> --><br>
+                                </ul>
+                            </li>
+                            <li class="col-sm-2"><ul>
+                                    <li class="dropdown-header"><a href="#">Ph.D</a></li>
+                                    <li><a href="https://www.imsnsit.org/imsnsit/elearn_phdregistration.php" target="_blank">Ph.D Admissions<sup style="color:orange;">&nbsp;New</sup></a></li>        
+                                </ul></li>
+                            <li class="col-sm-4">
+                                <img src="/static/images/index_carousel/navbar_admissions.jpg" width="100%">
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown menu-tab dropdown-large">
+                        <a href="/examination/" class="dropdown-toggle menu-tab-a">Examination<sup style="color:orange;">&nbsp;New</sup></a>
+                    </li>
+                    <li class="dropdown menu-tab dropdown-large">
+                       <a href="#" class="dropdown-toggle menu-tab-a" data-toggle="dropdown">Alumni</a>
+                        <ul class="dropdown-menu dropdown-menu-large row">
+                            <li class="col-sm-2">
+                                <ul>
+                                    
+                                    <li class="dropdown-header"><a href="#">Alumni Details</a></li>
+                                    
+                                    <!-- <li><a href="/esteemed-alumni/">Esteemed Alumni</a></li> -->
+                                    <li><a href="/alumni/">Alumni</a></li>
+                                    <li><a href="https://drive.google.com/open?id=1WeZVb5dnGiE20znU2Di4hntA0Pfjvp-6" target="_blank"><h5 class="media-heading">Alumni Meet-2019- Photos<sup style="color:orange;">&nbsp;New</sup></h5></a>
+                                    </li> 
+                                    <li><a href="https://drive.google.com/open?id=1vXd0_xM69Er5xJf18kVFW3on0UO4jJrk" target="_blank"><h5 class="media-heading">Alumni Meet-2019.</h5></a>
+                                    </li> 
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li class="dropdown-header"><a href="http://nsitalumni.org/main/">Alumni Network</a></li>
+                                    <li><a href="https://www.imsnsit.org/imsnsit/alumni.htm">Alumni Register/Login</a></li>
+                                    <!-- <li><a href="#">Contributions</a></li> -->
+                                </ul>
+                            </li>
+                            <li class="col-sm-5"><p class="quote">The NSUT alumni network - with over 5000 graduates - is an expansive web of people that provide you with alumni networking opportunity and career advice. From Australia to North America, NSUT graduates can be found in every major corporation and research house across the globe.<br>
+                            <!-- <u>Contact Person:</u><br> 
+                             <b>Prof. Vijander Singh, Dean Alumni Affairs</b><br>
+                             Room No. 04, Block VI, NSUT, Sector 3, Dwarka, New Delhi-110078<br>
+                             e-mail id: deanalumniaffairsnsit@gmail.com Phone (o): 011-25000173--> </p></li>
+                            
+                            <li class="col-sm-3">
+                                <img src="/static/images/index_carousel/navbar_alumni.jpg" width="100%">
+                            </li>
+                        </ul>
+                    </li>
+    
+                    <li class="dropdown menu-tab dropdown-large">
+                        <a href="#" class="dropdown-toggle menu-tab-a" data-toggle="dropdown">Media</a>
+                        <ul class="dropdown-menu dropdown-menu-large row">
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li class="dropdown-header"><a href="/news/">News</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header"><a href="#">Digital Media</a></li>
+                                    <li><a href="/photo-gallery/">Photo Gallery</a></li>
+                                    <li><a href="/media/videos/">Video Gallery</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li class="dropdown-header"><a href="#">Other Media</a></li>
+                                    <li><a href="/photo-gallery/">Newspapers/Magazines</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-5"><p class="quote">Find NSUT related news published in various media sources, and photo gallery here.</p></li>
+                            <li class="col-sm-3">
+                                <img src="/static/images/index_carousel/navbar_media.jpg" width="100%">
+                            </li>
+                        </ul>
+                    </li>
+    
+                    <li class="dropdown menu-tab dropdown-large">
+                        <a href="#" class="dropdown-toggle menu-tab-a" data-toggle="dropdown">Life at NSUT</a>
+                        <ul class="dropdown-menu dropdown-menu-large row">
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li class="dropdown-header"><a href="#">Campus Life</a></li>
+                                    <li><a href="/campus-life/housing/">Housing</a></li>
+                                    <li><a href="/campus-life/hostels/">Hostels</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header"><a href="#">Student Activities</a></li>
+                                    <li><a href="/student-activities/societies/">Societies/Clubs</a></li>
+                                    <li><a href="/student-activities/festivals/">Fests</a></li>
+                                    <li><a href="/student-activities/student-affairs-council/">Students' Affairs Council</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-2">
+                                <ul>
+                                    <li class="dropdown-header"><a href="/student-facilities/">Student Facilities</a></li>
+                                    <li><a href="/student-facilities/sports/">Sports</a></li>
+                                    <li><a href="/student-facilities/shopping/">Shopping</a></li>
+                                    <li><a href="/student-facilities/canteens/">Canteens</a></li>
+                                    <li><a href="/student-facilities/bank/">Bank</a></li>
+                                    <li><a href="/student-facilities/medical_help/">Medical Help</a></li>
+                                    <li><a href="/student-facilities/counselling_services/">Counselling Services</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-5"><p class="quote">NSUT has a beautifully landscaped and fully residential campus, sprawling 145 acres of land. A prominent feature of NSUT’s campus is the vast expanse of flora &amp; fauna that envelopes its entirety. The campus welcomes a diverse community of students, faculty, staff &amp; visitors in its midst. Extra-curricular activities thrive at NSUT, giving students a chance to further indulge in their interests.</p></li>
+                            <li class="col-sm-3">
+                                <img src="/static/images/index_carousel/navbar_life.jpg" width="100%">
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown menu-tab dropdown-medium">
+                        <a href="http://aiactr.ac.in/" target="_blank" class="dropdown-toggle menu-tab-a">East Campus<sup style="color:orange;">&nbsp;New</sup></a>
+                    </li>
+                     <li class="dropdown menu-tab dropdown-medium">
+                        <a href="http://gecdelhi.ac.in/" target="_blank" class="dropdown-toggle menu-tab-a">West Campus<sup style="color:orange;">&nbsp;New</sup></a>
+                    </li>
+    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script type="text/javascript" src="/static/generated/template_js.js?b1378c95"></script>
+    <script type="text/javascript" src="/static/generated/template_js.js?b1378c95"></script>
+    <script>
+
+        (function() {
+            var v = document.getElementsByClassName("youtube-player");
+            for (var n = 0; n < v.length; n++) {
+                var p = document.createElement("div");
+                p.innerHTML = labnolThumb(v[n].dataset.id);
+                p.onclick = labnolIframe;
+                v[n].appendChild(p);
+            }
+        $("ul#ticker01").liScroll();	
+        }
+        )
+        ();
+        function labnolThumb(id) {
+            return '<img class="youtube-thumb" src="//i.ytimg.com/vi/' + id + '/hqdefault.jpg"><div class="play-button"></div>';
+        }
+    
+        function labnolIframe() {
+            var iframe = document.createElement("iframe");
+            iframe.setAttribute("src", "//www.youtube.com/embed/" + this.parentNode.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1");
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("id", "youtube-iframe");
+        this.parentNode.replaceChild(iframe, this);
+    }//javascript part for replacing video as thumbnails,intially
+    
+    
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
